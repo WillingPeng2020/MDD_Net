@@ -114,8 +114,8 @@ class Trainer(object):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--train_set_path', type=str, required=False, default="data/fusion/adtrain.h5")
-    parser.add_argument('--val_set_path', type=str, required=False, default="data/fusin/adval.h5")
+    parser.add_argument('--train_set_path', type=str, required=True, help="Path to training source data")
+    parser.add_argument('--val_set_path', type=str, required=True, help="Path to validating source data")
     parser.add_argument('--batch_size', type=int, default=8)
     parser.add_argument('--epochs', type=int, default=1000)
     parser.add_argument('--lr', type=float, default=1e-4)
