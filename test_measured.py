@@ -35,7 +35,7 @@ plt.switch_backend('agg')
 data_file = h5py.File(args.test_set_path, 'r')
 test_data = DatasetFromFolder(data_file)
 test_dataLoader = data.DataLoader(dataset=test_data, batch_size=args.batch_size, shuffle=False)
-model = torch.load(args.model12).to(device)
+model = torch.load(args.model).to(device)
 
 with torch.no_grad():
     for step, test_data in enumerate(test_dataLoader):
