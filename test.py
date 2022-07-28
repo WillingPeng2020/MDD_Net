@@ -14,8 +14,8 @@ from math import log10
 import h5py
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--test_set_path', type=str, required=False, default="data_5k\measured\test.h5")
-parser.add_argument('--model', type=str, default="data_5k_model/model12_all.pth")
+parser.add_argument('--test_set_path', type=str, required=True, help="Path to testing source simulated data")
+parser.add_argument('--model', type=str, required=True, help="Path to saved model parameters")
 parser.add_argument('--batch_size', type=int, default=1)
 args = parser.parse_args()
 
