@@ -1,6 +1,6 @@
 
 
 
-Dataset Download path : 
+Well-trained model Download path:  
 
 
