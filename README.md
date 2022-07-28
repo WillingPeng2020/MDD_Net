@@ -1,8 +1,5 @@
 # MDD_Net
-Title
+## MDD-Net for Nonlinear Magnetization Signal Filtering in MPI
+## Train
 
-Abstract
-
-Train
-
-Test
+## Test
