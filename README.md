@@ -1,2 +1,8 @@
 # MDD_Net
-Its a MPI signal filtering model.
+Title
+
+Abstract
+
+Train
+
+Test
